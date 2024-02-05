@@ -1,0 +1,617 @@
+@media (max-width: 1800px) {
+  .hero-content {
+    padding-left: 79px;
+  }
+
+  .hero-content__descr {
+    min-width: 700px;
+    margin-bottom: 60px;
+  }
+
+  .descr-content__title {
+    margin-bottom: 17px;
+    font-size: 60px;
+  }
+
+  .descr-content__text {
+    padding-right: 10px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .logo__img {
+    width: 150px;
+  }
+
+  .header__menu {
+    gap: 0 105px;
+  }
+
+  .menu__list {
+    gap: 0 60px;
+  }
+
+  .about-descr {
+    width: 100%;
+  }
+
+  .about-advanteges {
+    flex-direction: column;
+  }
+
+  .advanteges {
+    width: 100%;
+  }
+
+  .about-advanteges__left {
+    min-height: 640px;
+  }
+
+  .advanteges__quality {
+    min-height: 196px;
+    align-items: center;
+  }
+
+  .advanteges__features {
+    height: 295px;
+  }
+
+  .advanteges__features {
+    padding-left: 315px;
+    padding-right: 119px;
+    background-position: left 77px center;
+  }
+
+  .stages {
+    padding-top: 11px;
+    padding-bottom: 25px;
+  }
+
+  .stages-title {
+    margin-bottom: 33px;
+  }
+
+  .stages-content::after {
+    width: calc(100% / 2 - 25px);
+  }
+
+  .stages-descr {
+    min-width: 437px;
+    margin-bottom: 26px;
+  }
+
+  .footer-right {
+    display: none;
+  }
+
+  .questions__list {
+    --offset: 0;
+    flex-direction: column;
+  }
+
+  .footer-center {
+    min-width: 543px;
+  }
+
+  .form-bottom__btn {
+    padding: 19px 37px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 26px 0;
+  }
+
+  .hero {
+    padding-top: 40px;
+  }
+
+  .hero-content {
+    padding-top: 160px;
+    padding-bottom: 161px;
+    padding-left: 77px;
+    background: url(../images/hero-bg-tablet.jpg) center/cover no-repeat,
+      var(--color-white);
+  }
+
+  .about {
+    padding-top: 12px;
+    padding-bottom: 68px;
+  }
+
+  .about-descr {
+    margin-bottom: 59px;
+  }
+
+  .stages-content::after {
+    max-height: 689px;
+    background-image: url(../images/stages-bg-tablet.jpg);
+  }
+
+  .questions {
+    padding-top: 55px;
+    padding-bottom: 79px;
+  }
+
+  .questions-title {
+    margin-bottom: 30px;
+  }
+
+  .questions__list {
+    gap: 30px;
+  }
+
+  .footer-center__title {
+    margin-bottom: 27px;
+  }
+}
+
+@media (max-width: 950px) {
+  .header {
+    padding: 17px 0;
+  }
+
+  .logo__img {
+    width: 110px;
+  }
+
+  .menu__link {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .header__menu {
+    gap: 0 43px;
+  }
+
+  .menu__list {
+    gap: 0 40px;
+  }
+
+  .hero-content {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 40px;
+    background: url(../images/hero-bg-tablet-mobile.jpg) center/cover no-repeat,
+      var(--color-white);
+    border-radius: 24px;
+  }
+
+  .hero-content__descr {
+    min-width: 584px;
+  }
+
+  .about-advanteges__left {
+    min-height: 650px;
+  }
+
+  .descr-content__title {
+    margin-bottom: 17px;
+    font-size: 50px;
+  }
+
+  .descr-content__text {
+    padding-right: 10px;
+    font-size: 18px;
+  }
+
+  .stages {
+    padding-top: 13px;
+    padding-bottom: 25px;
+  }
+
+  .stages-title {
+    margin-bottom: 31px;
+  }
+
+  .stages-content {
+    padding-top: 323px;
+  }
+
+  .stages-content::after {
+    max-height: 284px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 24px;
+    background-image: url(../images/stages-bg-mobile-1.jpg);
+  }
+
+  .stages-descr {
+    min-width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .advanteges__features {
+    max-height: 235px;
+    padding: 35px 30px 35px 170px;
+    border-radius: 24px;
+    background-size: 113px;
+    background-position: 40px 68px;
+  }
+
+  .advanteges__quality {
+    padding: 35px 40px;
+    gap: 0 47px;
+  }
+
+  .about-descr {
+    margin-bottom: 55px;
+  }
+
+  .about-advanteges__left {
+    border-radius: 24px;
+    background-image: url(../images/advanteges-bg-mobile.jpg);
+  }
+
+  .questions-list__item {
+    padding: 35px 40px;
+  }
+
+  .footer__container {
+    --offset: 1;
+    flex-direction: column-reverse;
+  }
+
+  .footer-menu {
+    display: none;
+  }
+
+  .footer-center {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 745px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header__container {
+    position: relative;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .header__logo {
+    margin-bottom: 20px;
+  }
+
+  .menu__search {
+    position: absolute;
+    right: 15px;
+    top: 0;
+  }
+
+  .header__menu {
+    align-self: center;
+    gap: 0 24px;
+  }
+
+  .hero-content__descr {
+    min-width: 100%;
+  }
+
+  .descr-content__title {
+    margin-bottom: 6px;
+    font-size: 22px;
+  }
+
+  .descr-content__text {
+    padding-right: 32px;
+    font-size: 18px;
+  }
+
+  .hero-content__btn {
+    padding: 17px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .about-advanteges__left {
+    position: relative;
+  }
+
+  .advanteges__quality {
+    flex-direction: column;
+    gap: 12px 0;
+  }
+
+  .section-subtitle {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .section-text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .footer__container {
+    align-items: center;
+    --offset: 0;
+  }
+
+  .footer__content {
+    width: auto;
+  }
+
+  .footer-logo__img {
+    width: 131px;
+  }
+
+  .footer-left__socials {
+    justify-content: center;
+  }
+
+  .socials__link svg {
+    width: 40px;
+  }
+
+  .footer-center {
+    min-width: 100%;
+  }
+
+  .form-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 11px 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .header {
+    border-radius: 0 0 16px 16px;
+  }
+
+  .btn {
+    padding: 12px 44px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .form-bottom__btn {
+    padding: 12px 19px;
+    align-self: center;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .header__menu {
+    align-self: center;
+    gap: 0 24px;
+  }
+
+  .menu__list {
+    gap: 0 24px;
+    align-items: center;
+  }
+
+  /* .menu__link {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+  } */
+
+  .hero-content {
+    padding: 60px 21px;
+    text-align: center;
+  }
+
+  .hero-content__descr {
+    margin-bottom: 32px;
+  }
+
+  .hero-content__btn {
+    padding: 14px 27px;
+  }
+
+  .stages__buttons {
+    gap: 0 10px;
+  }
+
+  .stages-buttons__btn.btn--stroke {
+    padding: 12px 32px;
+  }
+
+  .about-advanteges__left {
+    min-height: 420px;
+  }
+
+  .questions-list__item {
+    padding: 0;
+    border: none;
+    width: auto;
+  }
+
+  .features {
+    height: auto;
+    padding: 0;
+    padding-top: 61px;
+    border: none;
+    background-size: 69px;
+    background-position: left top;
+  }
+
+  .form-top__input,
+  .form-top__input::placeholder {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 440px) {
+  .header {
+    padding-bottom: 35px;
+  }
+
+  .header__menu {
+    height: 25px;
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .menu__item:last-child {
+    width: 147px;
+  }
+}
+
+@media (max-width: 320px) {
+  .menu__search {
+    padding-top: 5px;
+  }
+
+  .hero {
+    padding-top: 20px;
+  }
+
+  .hero-content {
+    border-radius: 16px;
+    background-image: url(../images/hero-bg-mobile.jpg);
+  }
+
+  .descr-content__title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .descr-content__text {
+    padding-right: 0;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .about {
+    padding-top: 35px;
+  }
+
+  .about-descr {
+    margin-bottom: 14px;
+  }
+
+  .about-advanteges__left {
+    min-height: 200px;
+    border-radius: 16px;
+    background-image: url(../images/advanteges-bg-mobile-2.png);
+  }
+
+  .about-advanteges {
+    gap: 232px 0;
+  }
+
+  .advanteges__quality {
+    position: absolute;
+    padding: 0;
+    bottom: -206px;
+    gap: 9px 0;
+    align-items: start;
+    background-color: transparent;
+  }
+
+  .descr__text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .quality__btn {
+    padding: 11px 41px;
+    color: var(--dark-orange);
+  }
+
+  .features {
+    background-image: url(../images/advanteges-bg-2-mobile.png);
+    background-size: 65px;
+  }
+
+  .features + .features {
+    background-image: url(../images/advanteges-bg-3-mobile.png);
+  }
+
+  .section-subtitle {
+    margin-bottom: 4px;
+  }
+
+  .about-advanteges__right {
+    gap: 46px 0;
+  }
+
+  .stages {
+    padding-top: 33px;
+  }
+
+  .section-title,
+  .stages-title {
+    margin-bottom: 20px;
+  }
+
+  .stages-content {
+    padding-top: 181px;
+  }
+
+  .stages-content::after {
+    height: 160px;
+    border-radius: 16px;
+    background-image: url(../images/stages-bg-mobile-2.jpg);
+  }
+
+  .stages-descr__subtitle {
+    margin-bottom: 14px;
+  }
+
+  .stages-descr {
+    margin-bottom: 23px;
+  }
+
+  .questions {
+    padding-top: 34px;
+    padding-bottom: 60px;
+  }
+
+  .questions__list {
+    gap: 32px;
+  }
+
+  .footer {
+    padding-top: 31px;
+    padding-bottom: 16px;
+  }
+
+  .form__top {
+    margin-bottom: 25px;
+  }
+
+  .footer-center {
+    padding-bottom: 24px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #666666;
+  }
+
+  .form-top__input {
+    padding: 21px 18px;
+  }
+
+  .form-top__input:last-child {
+    padding: 14px 18px 22px 18px;
+  }
+
+  .form-bottom__btn {
+    padding: 14px 19px;
+  }
+
+  .footer-left__logo {
+    margin-bottom: 3px;
+  }
+
+  .footer-left__socials {
+    gap: 0 16px;
+  }
+}
